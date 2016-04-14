@@ -1,11 +1,23 @@
-var para = document.querySelector('p');
+import $ from 'jquery';
 
+var para = document.querySelector('p');
+// ^^^ this var replaces the js code above ^^^
+// var para = $('p');
 
 // console.log('para');
 
-function updateGreeting (name) {
+function updateGreeting (timeofday, name) {
 
-  para.innerHTML = 'js feed is working' + name;
+// this is standard JS. just use this or the Interpretator///
+  // para.innerHTML = 'Good' + timeofday + ' ' + '<span class="underline">' + name +'</span>';
+
+// this is a string Interpretator//////////////
+  para.innerHTML =
+  // para.content =
+    `Good ${timeofday}
+    <span class="underline">${name}</span>`;
+
+  // para.html(contents);
 }
 
-updateGreeting(' Etsy');
+updateGreeting(' afternoon', 'Etsy');

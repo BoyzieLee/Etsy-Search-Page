@@ -12,9 +12,10 @@ nav {
   padding: 3% 5%; }
 
 input {
-  width: 20%; }
+  width: 40%; }
 
 .nav2 ul {
-  list-style: none; }
+  list-style: none;
+  color: #797979; }
 
 /*# sourceMappingURL=main.css.map */

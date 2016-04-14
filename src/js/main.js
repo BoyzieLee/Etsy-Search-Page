@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-var para = document.querySelector('p');
+var head4 = document.querySelector('h4');
 // ^^^ this var replaces the js code above ^^^
 // var para = $('p');
 
@@ -12,7 +12,7 @@ function updateGreeting (timeofday, name) {
   // para.innerHTML = 'Good' + timeofday + ' ' + '<span class="underline">' + name +'</span>';
 
 // this is a string Interpretator//////////////
-  para.innerHTML =
+  head4.innerHTML =
   // para.content =
     `Good ${timeofday}
     <span class="underline">${name}</span>`;

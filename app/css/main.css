@@ -45,16 +45,30 @@ input {
 .nav1rightside {
   color: #3CA7C2;
   float: right;
-  display: inline-block;
   background-color: white;
   width: 40%;
   padding: 0  0 .5% 0; }
+
+.shopping {
+  float: right;
+  width: 10%;
+  padding: 3% 5% 3% .25%; }
+
+.shopping img {
+  padding-left: 17%; }
+
+.shopping p {
+  margin: 0;
+  color: #8E8E8E; }
 
 .nav1rightside button {
   background-color: white;
   color: #3CA7C2;
   border-color: #3CA7C2;
-  border-radius: .5em; }
+  border-radius: .5em;
+  width: 20%;
+  height: 15%;
+  font-size: 10px; }
 
 hr {
   margin: 0;
@@ -71,7 +85,6 @@ hr {
   width: 100%; }
 
 h5 {
-  margin-top: 22%;
   margin-bottom: 8%; }
 
 .aside {
@@ -85,7 +98,7 @@ h5 {
 
 .aside li {
   color: #3CA7C2;
-  margin-right: 20%; }
+  margin-right: 30%; }
 
 .categories {
   background-color: white;
@@ -100,10 +113,52 @@ h5 {
   margin: 3% 0 5% 0; }
 
 .container {
-  width: 70%;
+  width: 64%;
+  float: right;
+  margin: 0 3% 0 3%;
   clear: both; }
+
+.merchHead {
+  margin-top: 5%; }
+
+.merchHeadLeft h5 {
+  float: left;
+  margin-top: 3%; }
+
+.merchHeadRight h5 {
+  float: right;
+  margin-top: 3%; }
+
+.merchContainer {
+  clear: both; }
+
+section {
+  background-color: white;
+  width: 32%;
+  margin-bottom: 2%;
+  margin-right: .5%;
+  font-size: .75em;
+  display: inline-block;
+  border-radius: .25em; }
+
+section p {
+  margin: 0; }
+
+.price {
+  color: #79BE3B; }
+
+.seller {
+  color: #8E8E8E; }
 
 .underline {
   text-decoration: underline; }
+
+.pageSearch li {
+  border: 1px;
+  background-color: white;
+  margin: 0;
+  padding: 1.5%;
+  border: 1px solid lightgrey;
+  float: left; }
 
 /*# sourceMappingURL=main.css.map */
